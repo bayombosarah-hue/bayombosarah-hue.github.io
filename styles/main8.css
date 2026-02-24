@@ -20,7 +20,7 @@ body{
 
 a:hover,a:focus{
     font-style: italic;
-    color: rgb(255, 0, 191);
+    color: rgb(1, 0, 0);
 }
 
 header {
