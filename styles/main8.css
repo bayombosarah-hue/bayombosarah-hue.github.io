@@ -54,7 +54,7 @@ main {
 
 main h3 {
     margin: 3em 2em 1.5em;
-    border: 5px double rgb(255, 0, 238);
+    border: 5px double rgb(214, 0, 238);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(240, 197, 215);
     padding: 1em;
@@ -62,7 +62,7 @@ main h3 {
 
 main nav {
     margin: 1.5em 2em 1.5em;
-    border:5px dashed rgb(215, 96, 167);
+    border:5px dashed rgb(214, 36, 143);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(244, 196, 213);
     padding: 0.5em;
@@ -70,7 +70,7 @@ main nav {
 
 main div.contact {
     margin: 1.5em 2em 0 2em;
-    border:5px dotted rgb(232, 143, 226);
+    border:5px dotted rgb(214 , 60, 164);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(250, 184, 221);
     padding: 1em;
