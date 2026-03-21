@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    width: 95%;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    line-height: 1.6;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus {
+    background-color: navy;
+}
+
+main {
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+article {
+    width: 75%;
+    float: left;
+    padding-right: 2%;
+    border-right: 2px solid black;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    position: fixed;
+    right: 4%;
+    top: 120px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+}
+
+article h1 {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+article p::first-letter {
+    font-size: 220%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.float_image {
+    float: left;
+    width: 220px;
+    margin: 5px 15px 10px 0;
+    border: 2px solid black;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+aside li {
+    margin-bottom: 8px;
+}
+
+aside a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+aside a:hover,
+aside a:focus {
+    text-decoration: underline;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid black;
+}
+
+footer a {
+    color: blue;
+    font-weight: bold;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: none;
+}
