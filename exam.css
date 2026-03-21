@@ -19,7 +19,6 @@ body {
     border: 3px solid blue;
 }
 
-/* navigation menu */
 #nav_menu ul {
     list-style-type: none;
     overflow: hidden;
@@ -55,7 +54,7 @@ body {
     background-color: navy;
 }
 
-/* main content area */
+
 main {
     overflow: hidden;
     padding: 20px;
@@ -63,7 +62,7 @@ main {
     position: relative;
 }
 
-/* article */
+
 article {
     width: 75%;
     float: left;
@@ -98,7 +97,6 @@ article p::first-letter {
     font-weight: bold;
 }
 
-/* image */
 .float_image {
     float: left;
     width: 180px;
@@ -106,7 +104,7 @@ article p::first-letter {
     border: 2px solid black;
 }
 
-/* aside */
+
 aside {
     width: 20%;
     position: fixed;
@@ -148,7 +146,7 @@ aside a:focus {
     text-decoration: underline;
 }
 
-/* footer */
+
 footer {
     clear: both;
     text-align: center;
