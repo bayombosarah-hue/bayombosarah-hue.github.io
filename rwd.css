@@ -9,7 +9,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* NAV */
+
 .top-nav {
     display: flex;
     flex-direction: row;
